@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-11-21 11:26+0800\n"
+"PO-Revision-Date: 2023-02-15 11:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "menu"
+msgstr ""
+"菜单\n"
+"菜单2"
+
+# test
+#| test
+#: modules/user/views_handler_filter_user_name.inc:112
+msgid "Unable to find user: @users"
+msgid_plural "Unable to find users: @users"
+msgstr[0] "Benutzer konnte nicht gefunden werden: @users"
+msgstr[1] "Benutzer konnten nicht gefunden werden: @users"
+
+#, c-format
+msgid "One file removed"
+msgid_plural "%d files removed"
+msgstr[0] "%d slika je uklonjena"
+msgstr[1] "%d datoteke uklonjenih"
+msgstr[2] "%d slika uklonjenih"

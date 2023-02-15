@@ -1,0 +1,367 @@
+[
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "comment_extracted",
+          "named": true
+        },
+        {
+          "type": "comment_flag",
+          "named": true
+        },
+        {
+          "type": "comment_reference",
+          "named": true
+        },
+        {
+          "type": "comment_text",
+          "named": true
+        },
+        {
+          "type": "comment_translator",
+          "named": true
+        },
+        {
+          "type": "msg_previous_id",
+          "named": true
+        },
+        {
+          "type": "msg_previous_str",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment_extracted",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment_flag",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment_reference",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment_text",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment_translator",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "text",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "message",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "msgctxt",
+          "named": true
+        },
+        {
+          "type": "msgid",
+          "named": true
+        },
+        {
+          "type": "msgid_plural",
+          "named": true
+        },
+        {
+          "type": "msgstr",
+          "named": true
+        },
+        {
+          "type": "msgstr_plural",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msg_previous_id",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msg_previous_str",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msgctxt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msgid",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msgid_plural",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msgstr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "msgstr_plural",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "message",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "#,",
+    "named": false
+  },
+  {
+    "type": "#.",
+    "named": false
+  },
+  {
+    "type": "#/~ msgstr ",
+    "named": false
+  },
+  {
+    "type": "#:",
+    "named": false
+  },
+  {
+    "type": "#|",
+    "named": false
+  },
+  {
+    "type": "#~ msgid ",
+    "named": false
+  },
+  {
+    "type": "] ",
+    "named": false
+  },
+  {
+    "type": "msgctxt",
+    "named": false
+  },
+  {
+    "type": "msgid ",
+    "named": false
+  },
+  {
+    "type": "msgid[",
+    "named": false
+  },
+  {
+    "type": "msgid_plural ",
+    "named": false
+  },
+  {
+    "type": "msgid_plural[",
+    "named": false
+  },
+  {
+    "type": "msgstr ",
+    "named": false
+  },
+  {
+    "type": "msgstr[",
+    "named": false
+  },
+  {
+    "type": "msgstr_plural ",
+    "named": false
+  },
+  {
+    "type": "msgstr_plural[",
+    "named": false
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "string",
+    "named": true
+  },
+  {
+    "type": "text",
+    "named": true
+  }
+]
