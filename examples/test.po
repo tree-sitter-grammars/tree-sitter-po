@@ -19,7 +19,6 @@ msgstr ""
 "菜单2"
 
 # test
-#| test
 #: modules/user/views_handler_filter_user_name.inc:112
 msgid "Unable to find user: @users"
 msgid_plural "Unable to find users: @users"

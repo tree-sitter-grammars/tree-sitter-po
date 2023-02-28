@@ -1,20 +1,22 @@
-tree-sitter-po
-==============
+# tree-sitter-po
 
-The GNU gettext translation file, po/pot grammar for Tree-sitter.
+[![Build Status](https://github.com/erasin/tree-sitter-po/actions/workflows/ci.yml/badge.svg)](https://github.com/erasin/tree-sitter-po/actions/workflows/ci.yml)
+[![Discord](https://img.shields.io/discord/1063097320771698699?logo=discord)](https://discord.gg/w7nTvsVJhm)
 
-### Development
+[GNU gettext translation file (PO/POT)](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
+grammar for Tree-sitter.
+
+## Development
 
 Install the dependencies:
 
-    npm install
+```sh
+npm install
+```
 
 Build and run the tests:
 
-    npm run build
-    npm run test
-
-### References
-
-- [The format of po files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html).
-
+```sh
+npm run build
+npm run test
+```
