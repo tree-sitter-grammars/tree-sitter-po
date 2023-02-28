@@ -1,27 +1,27 @@
 [package]
 name = "tree-sitter-po"
-description = "po grammar for the tree-sitter parsing library"
+description = "PO grammar for tree-sitter"
 version = "0.0.1"
-keywords = ["incremental", "parsing", "po"]
-categories = ["parsing", "text-editors"]
-repository = "https://github.com/tree-sitter/tree-sitter-po"
-edition = "2018"
+authors = [
+	"Erasin Wang <erasinoo@gmail.com>",
+	"Amaan Qureshi <amaanq12@gmail.com>",
+]
 license = "MIT"
 readme = "bindings/rust/README.md"
+keywords = ["incremental", "parsing", "po", "gettext"]
+categories = ["parsing", "text-editors"]
+repository = "https://github.com/erasin/tree-sitter-po"
+edition = "2021"
+autoexamples = false
 
 build = "bindings/rust/build.rs"
-include = [
-  "bindings/rust/*",
-  "grammar.js",
-  "queries/*",
-  "src/*",
-]
+include = ["bindings/rust/*", "grammar.js", "queries/*", "src/*"]
 
 [lib]
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = "~0.20.3"
+tree-sitter = "~0.20.9"
 
 [build-dependencies]
 cc = "1.0"
